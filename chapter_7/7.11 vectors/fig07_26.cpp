@@ -1,14 +1,12 @@
 /*
-  7.26. C++ Standard Library class template vector.
+  7.11. Introduction to C++ Standard Library Class Template vector
 
-  multidimensional arrays
+  vectors
 */
 
 #include <iomanip>
 #include <iostream>
 #include <vector>
-
-#include "../../utils/utils.h"
 
 using std::cin;
 using std::cout;
