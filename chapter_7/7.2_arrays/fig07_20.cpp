@@ -7,6 +7,8 @@
 #include <iomanip>
 #include <iostream>
 
+#include "../../utils/utils.h"
+
 using std::cout;
 using std::endl;
 using std::setw;
@@ -49,12 +51,4 @@ void insertionSort(int array[], int arraySize) {
     cout << "position " << i << ": ";
     printArray(array, arraySize);
   }
-}
-
-void printArray(int array[], int arraySize) {
-  for (int i = 0; i < arraySize; i++) {
-    cout << setw(4) << array[i];
-  }
-
-  cout << "\n";
 }
