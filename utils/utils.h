@@ -5,7 +5,9 @@ using std::cout;
 using std::endl;
 using std::setw;
 
-void printArray(int array[], int arraySize) {
+template <class T>
+
+void printArray(T array[], T arraySize) {
   for (int i = 0; i < arraySize; i++) {
     cout << setw(4) << array[i];
   }

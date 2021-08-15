@@ -14,7 +14,6 @@ using std::endl;
 using std::setw;
 
 void insertionSort(int array[], int arraySize);
-void printArray(int array[], int arraySize);
 
 int main() {
   const int arraySize = 10;
