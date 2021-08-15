@@ -1,5 +1,5 @@
 /*
-  7.20. 7.22. Initializing multidimensional arrays.
+  7.22. Initializing multidimensional arrays.
 
   multidimensional arrays
 */
